@@ -126,7 +126,6 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="img\asp-net-mvc.jpg" />
-    <Content Include="img\dotnet-mvc.jpeg" />
     <Content Include="img\vue-js.jpg" />
     <Content Include="js\fixConsoleForOldBrowsers.js" />
     <Content Include="package.json" />
