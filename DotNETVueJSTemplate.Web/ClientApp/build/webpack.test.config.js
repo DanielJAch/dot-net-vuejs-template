@@ -4,7 +4,7 @@ const FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin');
 const config = require('../config');
 const baseWebpackConfig = require('./webpack.base.config');
 
-module.exports = merge(baseWebpackConfig(config.test.env), {
+module.exports = merge(baseWebpackConfig('development'), {
   devtool: '#inline-source-map', // inline
 
   plugins: [

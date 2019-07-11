@@ -109,6 +109,10 @@
     <Content Include=".eslintrc.js" />
     <Content Include="ClientApp\build\webpack.base.config.js" />
     <Content Include="ClientApp\build\webpack.dev.config.js" />
+    <Content Include="ClientApp\build\webpack.prod.config.js" />
+    <Content Include="ClientApp\build\webpack.staging.config.js" />
+    <Content Include="ClientApp\build\webpack.test.config.js" />
+    <Content Include="ClientApp\build\webpack.unittest.config.js" />
     <Content Include="ClientApp\config\index.js" />
     <Content Include="ClientApp\src\app.js" />
     <Content Include="ClientApp\src\components\app\index.js" />
