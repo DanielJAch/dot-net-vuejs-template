@@ -4,7 +4,7 @@
   "description": "Template for a .NET-VueJS Application",
   "repository": {
     "type": "git",
-    "url": "git://www.danieljach.net:GitServer/DotNETVueJSTemplate"
+    "url": "https://github.com/DanielJAch/dot-net-vuejs-template.git"
   },
   "private": true,
   "scripts": {
