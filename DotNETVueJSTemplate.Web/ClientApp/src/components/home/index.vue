@@ -4,7 +4,7 @@
       <div class="container-fluid">
         <h1>
           <img alt=".NET MVC" src="/img/asp-net-mvc.jpg" class="nodejs-small" />
-          .NET VueJS Template Application
+          ASP.NET MVC/VueJS Template Application
           <img alt="VueJS" src="/img/vue-js.jpg" class="nodejs-small" />
         </h1>
         <p>
