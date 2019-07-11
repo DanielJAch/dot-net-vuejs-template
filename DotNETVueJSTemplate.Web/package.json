@@ -1,0 +1,54 @@
+{
+  "name": "DotNETVueJSTemplate",
+  "version": "1.0.0",
+  "description": "Template for a .NET-VueJS Application",
+  "repository": {
+    "type": "git",
+    "url": "git://www.danieljach.net:GitServer/DotNETVueJSTemplate"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --content-base ./app/webroot/app --inline --hot --port 8086",
+    "build": "webpack --config ./ClientApp/build/webpack.dev.config.js",
+    "build:watch": "webpack --watch --config ./ClientApp/build/webpack.dev.config.js",
+    "clean": "rmdir /s /q node_modules",
+    "reinstall": "npm run clean && npm install",
+    "rebuild": "npm run clean && npm install && npm run build"
+  },
+  "author": "danieljach@gmail.com",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.24",
+    "express": "^4.17.1",
+    "@fortawesome/fontawesome-free": "^5.9.0",
+    "lodash": "^4.17.11",
+    "helmet": "^3.18.0",
+    "moment": "2.24.0",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.6",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "acorn": "^6.1.1",
+    "clean-webpack-plugin": "3.0.0",
+    "css-loader": "^3.0.0",
+    "eslint": "^6.0.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.2",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^4.0.0",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "0.7.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "url-loader": "^2.0.0",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.4",
+    "webpack-merge": "^4.2.1"
+  }
+}
