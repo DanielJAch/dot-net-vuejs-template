@@ -12,7 +12,9 @@
   },
   prod: {
     env: {
-      NODE_ENV: '"production"'
+      NODE_ENV: '"production"',
+      PORT: 80,
+      PORT_HTTPS: 443
     },
     urls: {
       api: '"https://api.myproductionurl.com"',
@@ -21,7 +23,9 @@
   },
   staging: {
     env: {
-      NODE_ENV: '"production"'
+      NODE_ENV: '"production"',
+      PORT: 80,
+      PORT_HTTPS: 443
     },
     urls: {
       api: '"https://api.mystagingurl.com"',
@@ -30,7 +34,9 @@
   },
   test: {
     env: {
-      NODE_ENV: '"test"'
+      NODE_ENV: '"test"',
+      PORT: 80,
+      PORT_HTTPS: 443
     },
     urls: {
       api: '"https://api.testurl.com"',
@@ -39,11 +45,13 @@
   },
   dev: {
     env: {
-      NODE_ENV: '"development"'
+      NODE_ENV: '"development"',
+      PORT: 22976,
+      PORT_HTTPS: 22976
     },
     urls: {
-      api: '"http://localhost:22974"',
-      web: '"http://localhost:22975"'
+      api: '"http://localhost:22976"',
+      web: '"http://localhost:22976/api"'
     }
   },
   unittest: {

@@ -39,6 +39,12 @@ module.exports = (env) => {
       publicPath: '/dist/'
     },
 
+    optimization: {
+      splitChunks: {
+        chunks: 'all'
+      }
+    },
+
     resolve: {
       extensions: ['.js', '.vue', '.json'],
       alias: {
