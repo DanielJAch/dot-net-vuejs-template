@@ -1,7 +1,7 @@
 {
   "name": "dot-net-vuejs-template",
   "version": "1.0.0",
-  "description": "Template for a .NET-VueJS Application",
+  "description": "Template for a .NET/VueJS Application",
   "repository": {
     "type": "git",
     "url": "https://github.com/DanielJAch/dot-net-vuejs-template.git"
@@ -25,8 +25,8 @@
     "bootstrap-vue": "^2.0.0-rc.24",
     "express": "^4.17.1",
     "@fortawesome/fontawesome-free": "^5.9.0",
-    "lodash": ">=4.17.13",
     "helmet": "^3.18.0",
+    "lodash": ">=4.17.13",
     "moment": "2.24.0",
     "vue": "^2.6.10",
     "vue-router": "^3.0.6",
