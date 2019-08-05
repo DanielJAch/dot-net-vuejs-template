@@ -15,7 +15,7 @@ namespace DotNETVueJSTemplate.Api.Config
 
         public override async Task Invoke(IOwinContext context)
         {
-            HttpContext.Current.Items[Constants.HttpRequestGiudKey] =
+            HttpContext.Current.Items[Constants.HttpRequestGuidKey] =
                 Trace.CorrelationManager.ActivityId =
                     Guid.NewGuid();
 

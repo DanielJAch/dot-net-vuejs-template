@@ -5,7 +5,7 @@ namespace DotNETVueJSTemplate.Api
     public static class Constants
     {
         public static readonly bool LogAllSqlCalls = bool.Parse(ConfigurationManager.AppSettings["LogAllSqlCalls"]);
-        public static readonly string HttpRequestGiudKey = "HttpRequestGiudKey";
+        public static readonly string HttpRequestGuidKey = "HttpRequestGuidKey";
         public static readonly string ConnectionStringName = "ExampleDbContext";
 
         public class Routes
