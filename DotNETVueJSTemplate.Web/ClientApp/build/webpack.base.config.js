@@ -3,6 +3,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
+const EslintFriendlyFormatter = require('eslint-friendly-formatter');
 
 module.exports = (env) => {
   const minimizeCss = env === 'production';
@@ -70,7 +71,7 @@ module.exports = (env) => {
           loader: 'eslint-loader',
           options: {
             // eslint options (if necessary)
-            formatter: require('eslint-friendly-formatter')
+            formatter: EslintFriendlyFormatter
           }
         },
         {
@@ -86,22 +87,6 @@ module.exports = (env) => {
             'css-loader',
             'sass-loader'
           ]
-          // use: extractCss.extract([
-          //     {
-          //       loader: 'css-loader',
-          //       options: {
-          //         // minimize: minimizeCss,
-          //         sourceMap: true
-          //       }
-          //     },
-          //     {
-          //       loader: 'sass-loader',
-          //       options: {
-          //         // minimize: minimizeCss,
-          //         sourceMap: true
-          //       }
-          //     }
-          //   ])
         },
         {
           test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
@@ -137,7 +122,8 @@ module.exports = (env) => {
       new VueLoaderPlugin(),
       new CleanWebpackPlugin(),
       new HtmlWebpackPlugin({
-        title: ''
+        title: '',
+        template: './ClientApp/src/index.html'
       })
     ]
   };

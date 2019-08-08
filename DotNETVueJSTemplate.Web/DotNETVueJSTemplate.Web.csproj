@@ -118,6 +118,7 @@
     <Content Include="ClientApp\src\components\app\index.js" />
     <Content Include="ClientApp\src\config.js" />
     <Content Include="ClientApp\src\filters\format-date.js" />
+    <Content Include="ClientApp\src\index.html" />
     <Content Include="ClientApp\src\models\example.js" />
     <Content Include="ClientApp\src\router.js" />
     <Content Include="ClientApp\src\services\baseService.js" />
@@ -127,6 +128,14 @@
     <Content Include="ClientApp\src\store\modules\routing\index.js" />
     <Content Include="ClientApp\src\store\modules\routing\navigation.js" />
     <Content Include="ClientApp\src\utilities.js" />
+    <Content Include="dist\index.html" />
+    <Content Include="dist\main.js" />
+    <Content Include="dist\site.css" />
+    <Content Include="dist\static\img\fa-brands-400.svg" />
+    <Content Include="dist\static\img\fa-regular-400.svg" />
+    <Content Include="dist\static\img\fa-solid-900.svg" />
+    <Content Include="dist\vendors~main.js" />
+    <Content Include="dist\vendors~main.site.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="img\asp-net-mvc.jpg" />
@@ -150,13 +159,24 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="ClientApp\test\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="dist\static\fonts\fa-brands-400.eot" />
+    <Content Include="dist\static\fonts\fa-brands-400.ttf" />
+    <Content Include="dist\static\fonts\fa-brands-400.woff" />
+    <Content Include="dist\static\fonts\fa-brands-400.woff2" />
+    <Content Include="dist\static\fonts\fa-regular-400.eot" />
+    <Content Include="dist\static\fonts\fa-regular-400.ttf" />
+    <Content Include="dist\static\fonts\fa-regular-400.woff" />
+    <Content Include="dist\static\fonts\fa-regular-400.woff2" />
+    <Content Include="dist\static\fonts\fa-solid-900.eot" />
+    <Content Include="dist\static\fonts\fa-solid-900.ttf" />
+    <Content Include="dist\static\fonts\fa-solid-900.woff" />
+    <Content Include="dist\static\fonts\fa-solid-900.woff2" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>

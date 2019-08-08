@@ -6,7 +6,7 @@ namespace DotNETVueJSTemplate.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return new FilePathResult("~/dist/index.html", "text/html");
         }
 
         public ActionResult Error()
